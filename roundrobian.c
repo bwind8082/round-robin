@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <stdio.h>//for standard input output
 #include <conio.h>
-
+//For structure 
 struct
 {
 	int bt;
@@ -10,7 +10,7 @@ struct
 	
 	int wt;
 } typedef rr;
-
+//Here main function use
 int main()
 {
 	int n, qt, i, j;
@@ -19,6 +19,7 @@ int main()
 	rr r[n], t;
 	printf("enter time quantum:");
 	scanf("%d",&qt);
+//For loop start with 0
 	for (i = 0; i < n; i++)
 	{
 		printf("enter duration of process:");
